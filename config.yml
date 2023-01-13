@@ -1,4 +1,4 @@
-token: "lip_B8MIa7OEouBoYNUDcp9d"         # Lichess OAuth2 Token.
+token: "lip_Rz7bLZi0msOubGY17vfv"         # Lichess OAuth2 Token.
 
 engine:                                   # Engine settings.
   dir: "./engines"               # Directory containing the engine.
@@ -43,11 +43,8 @@ engine:                                   # Engine settings.
     Move Overhead: 280
     Threads: 3                            # Max CPU threads the engine can use.
     Hash: 128                             # Max memory (in megabytes) the engine can allocate.
-    Skill Level: 20
-    UCI_Elo : 2850
-    MultiPV: 17
 
-move_overhead_multiplier: 9              # Increase if your bot flags games too often. Default move overhead is 1 second per 1 minute initital time.
+#move_overhead_multiplier: 9              # Increase if your bot flags games too often. Default move overhead is 1 second per 1 minute initital time.
 
 challenge:                                # Incoming challenges. (Commenting allowed)
   concurrency: 1                          # Number of games to play simultaneously.
